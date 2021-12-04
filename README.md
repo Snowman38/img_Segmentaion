@@ -7,7 +7,7 @@
     - test_dice = 0.86096 
 
 
-# Neural Computation Coursework
+# Neural Computation Task
 
 ## About
 - This is a basic frame. Not for functionality/submission.
