@@ -1,0 +1,25 @@
+{
+    "batch_size": 16,
+    "n_aug": 4,
+    "augment": "True",
+    "criterion_info": {
+        "name": "DiceCE"
+    },
+    "dataset_info": {
+        "test_data_path": "data/test",
+        "train_data_path": "data/train",
+        "val_data_path": "data/val"
+    },
+    "epochs": 150,
+    "model_info": {
+        "input_channels": 1,
+        "name": "UNet",
+        "depths": 4,
+        "model_path": "./models/unet.pth"
+    },
+    "optimizer_info": {
+        "lr": 0.001,
+        "name": "Adam",
+        "weight_decay": 1e-6
+    }
+}

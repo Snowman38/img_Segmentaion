@@ -1,0 +1,24 @@
+{
+    "batch_size": 16,
+    "augment": "True",
+    "n_aug": 3,
+    "criterion_info": {
+        "name": "Dice"
+    },
+    "dataset_info": {
+        "test_data_path": "data/test",
+        "train_data_path": "data/train",
+        "val_data_path": "data/val"
+    },
+    "epochs": 180,
+    "model_info": {
+        "input_channels": 3,
+        "model_path": "models/fcn.pth",
+        "name": "FCN"
+    },
+    "optimizer_info": {
+        "lr": 0.0007,
+        "name": "Adam",
+        "weight_decay": 1e-05
+    }
+}

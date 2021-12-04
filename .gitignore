@@ -1,0 +1,14 @@
+*.pyc
+data/
+__pycache__/
+checkpoints/
+*.pth
+*.jpg
+venv/
+virtualenv/
+.idea/
+*.json
+!configs/*.json
+*.csv
+*.png
+*.npz

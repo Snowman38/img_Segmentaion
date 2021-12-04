@@ -1,0 +1,14 @@
+batch_size: 32
+epochs: 250
+Adam, lr=1e-3
+
+augmentation:
+	trfm = albumentations.Compose([
+		albumentations.Resize(96, 96),
+		albumentations.HorizontalFlip(p=0.5),
+		albumentations.VerticalFlip(p=0.5),
+		albumentations.RandomRotate90(),
+	])
+
+
+val_dice:  0.8528134749876287

@@ -1,0 +1,24 @@
+{
+    "batch_size": 16,
+    "epochs": 150, 
+    "augment": "True",
+    "n_aug": 1,
+    "dataset_info": {
+        "test_data_path": "data/test",
+        "train_data_path": "data/train",
+        "val_data_path": "data/val"
+    },
+    "model_info": {
+        "input_channels": 3,
+        "name": "EffUNet",
+        "model_path": "models/effunet_150_dice.pth"
+    },
+    "optimizer_info": {
+        "lr": 0.001,
+        "name": "Adam",
+        "weight_decay": 5e-6
+    },
+    "criterion_info": {
+        "name": "Dice"
+    }
+}

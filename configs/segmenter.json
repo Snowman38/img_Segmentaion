@@ -1,0 +1,19 @@
+{
+    "batch_size": 16,
+    "dataset_info": {
+        "test_data_path": "data/test",
+        "train_data_path": "data/train",
+        "val_data_path": "data/val"
+    },
+    "epochs": 5,
+    "model_info": {
+        "input_channels": 1,
+        "model_name": "Segmenter",
+        "model_path": "models/segmenter.pth"
+    },
+    "optimizer_info": {
+        "lr": 0.001,
+        "name": "Adam",
+        "weight_decay": 0.05
+    }
+}

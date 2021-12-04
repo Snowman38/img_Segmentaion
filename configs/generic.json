@@ -1,0 +1,22 @@
+{
+    "batch_size": 32,
+    "criterion_info": {
+        "name": "MyCriterion"
+    },
+    "dataset_info": {
+        "test_data_path": "data/test",
+        "train_data_path": "data/train",
+        "val_data_path": "data/val"
+    },
+    "epochs": 100,
+    "model_info": {
+        "input_channels": 1,
+        "model_path": "models/my_model.pth",
+        "name": "MyModel"
+    },
+    "optimizer_info": {
+        "lr": 0.001,
+        "name": "MyOptimizer",
+        "weight_decay": 1e-08
+    }
+}
