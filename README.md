@@ -13,7 +13,6 @@
 - This is a basic frame. Not for functionality/submission.
     - Use it to verify whether your code(data augmentation/new models/new loss) is working or not.
     - The baseline model name is UNet
-- check https://docs.google.com/document/d/1dF402jIkJUld_SmF9NGFX1VO0kHSU3QzDhBc9kA6qLY/edit?usp=sharing before running your code
 
 ## Run The Code
 1. generate unet_config.json
@@ -106,3 +105,6 @@
 
 ## Rerferences
 - https://github.com/milesial/Pytorch-UNet
+
+## Final Report 
+
